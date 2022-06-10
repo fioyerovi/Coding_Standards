@@ -14,6 +14,11 @@ import java.util.Scanner;
  */
 public class Calculator {	
 //CHECKSTYLE: OFF	
+	/**
+	 * Main function that works as a calculator.
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 //CHECKSTYLE: ON
 		Scanner reader = new Scanner(System.in);
