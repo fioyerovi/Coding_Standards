@@ -7,8 +7,10 @@ import java.util.Scanner;
 
 
 /**
- * @author
- *
+ * 
+ * Calculator with 4 operations: addition, 
+ * substraction, division and multiplication.
+ * @author Team 4
  */
 public class Calculator {	
 //CHECKSTYLE: OFF	
@@ -54,6 +56,16 @@ public class Calculator {
 		reader.close();
 	}
 
+	
+	/**
+	 * Evaluate each operation, if it is not
+	 * available it does not show a result
+	 *
+	 * @param first
+	 * @param second
+	 * @param operator 
+	 * @return result
+	 */
 	private String operation(double first, double second, char operator) {
 		double result = 0;
 		switch(operator)
