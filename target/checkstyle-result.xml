@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.29">
-<file name="C:\Users\fioye\Documents\Coding_Standards\src\main\java\labcodingstandards\Calculator.java">
-<error line="13" severity="error" message="Type Javadoc comment is missing @author tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="15" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
-<error line="57" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<file name="C:\Users\GioRojas\Desktop\Gio Espol\7Septimo Semestre\Ingenieria de software II\Coding_Standards\src\main\java\labcodingstandards\Calculator.java">
+<error line="17" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
 </file>
 </checkstyle>
